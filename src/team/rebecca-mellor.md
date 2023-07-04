@@ -2,6 +2,7 @@
 name: Rebecca Mellor
 position: Data Analyst
 linkedin: https://www.linkedin.com/in/rebecca-mellor-291467173
+image: rebecca
 date: 2020-01-31
 ---
 
