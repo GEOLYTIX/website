@@ -24,8 +24,8 @@
     },
     {
       "title": "Warsaw",
-      "address": "Aleja Jana Pawła II 80, 00-175 Warszawa, Babka Tower, wejście H, piętro 5",
-      "telephone": "+48 506 001 805",
+      "address": "Jacek Biel",
+      "telephone": "+44 (0) 207 415 7043",
       "email": "info@geolytix.com",
       "location": {
         "lat": "52.25453256711023",
@@ -35,8 +35,8 @@
     },
     {
       "title": "Tokyo",
-      "address": "15F Cerulean Tower, 26-1 Sakuragaoka cho, Shibuya-ku, Tokyo, 150-8512",
-      "telephone": "+81 (0) 3 5456 7954",
+      "address": "Luke Whittam",
+      "telephone": "+44 (0) 207 415 7043",
       "email": "info@geolytix.com",
       "location": {
         "lat": "35.65634814032404",
@@ -46,8 +46,8 @@
     },
     {
       "title": "Shanghai",
-      "address": "Room 334, 135 Yanping Road, Jing’an District, Shanghai",
-      "telephone": "+86 21 6237 8013",
+      "address": "Coco Lin",
+      "telephone": "+44 (0) 207 415 7043",
       "email": "info@geolytix.com",
       "location": {
         "lat": "31.240771987060114",
@@ -61,18 +61,21 @@
     },
     {
       "title": "Melbourne",
-      "address": "Level 22, 120 Spencer Street, Melbourne, Victoria, 3000, Australia",
+      "address": "Samantha Colebatch",
       "telephone": "+44 (0) 207 415 7043",
       "email": "info@geolytix.com",
       "location": {
         "lat": "-37.81828650094941",
         "lng": "144.95416857257294",
-        "zoom": "18"
+        "zoom": "13"
       }
     },
     {
+      "title": "Orleans"
+    },
+    {
       "title": "Johannesburg",
-      "address": "13 pont road, Bryanston, Johannesburg, 2191, South Africa",
+      "address": "Robert Hurst",
       "telephone": "+44 (0) 207 415 7043",
       "email": "info@geolytix.com",
       "location": {
