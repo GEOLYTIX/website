@@ -1,6 +1,6 @@
 ---
 name: Lizzie Dawson
-position: Customer & Delivery Partners
+position: Customer & Delivery Partner
 linkedin: https://www.linkedin.com/in/lizzie-dawson-889ab246/
 date: 2021-04-26
 ---
