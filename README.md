@@ -19,3 +19,4 @@ May 18 - Our Team Geolytix France
 6th Oct 22 - New Blogs
 25th Oct 22 - New Blogs
 19th Oct 23 - New Blogs
+24th Oct 23 - Update to France Retail blog
