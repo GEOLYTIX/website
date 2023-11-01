@@ -76,7 +76,7 @@ module.exports = async (req, res) => {
   });
 
   const json = await data.json();
-  // console.log(json);
+   console.log(json);
 
   res.writeHead(302, {
     Location: '/thanks/',
