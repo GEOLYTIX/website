@@ -75,8 +75,15 @@ module.exports = async (req, res) => {
     },
   });
 
+  
+
   const json = await data.json();
-  // console.log(json);
+  
+  console.log(json);
+
+  console.log(`Form URL: ${url}`);
+
+  console.log(`Form data: ${data}`);
 
   res.writeHead(302, {
     Location: '/thanks/',
