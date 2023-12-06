@@ -59,10 +59,34 @@ metaDesc: Get in touch to see how GEOLYTIX can help you make better network stra
 
   <div class="wrapper">
     <h2 class="eyebrow text-align-center color-primary-mid">{{ "Or choose an office" | i18n }}</h2>
-    
-    <div class="embed">
-      <iframe src="https://geolytix.xyz/geodata/view/_contact?layers=Base,Offices,Label&locations=Offices!1&lat=21.61493&lng=66.23044&z=2.75" title="{{ office.title }} Maps" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-    </div>
 
+    <div class="tabs">
+      <div class="text-align-center">
+        <ul class="segment-control" role="tablist">
+          {% for office in offices.locations %}
+            {% if office.address %}
+              <li role="tab"{% if loop.first %} aria-selected="true"{% endif %} data-tab="{{ office.title | slug }}"><button>{{ office.title }}</button></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+
+      {% for office in offices.locations %}
+        <div data-tab-id="{{ office.title | slug }}" role="tabpanel"{% if loop.first %} aria-hidden="false"{% else %}aria-hidden="true"{% endif %} aria-label="{{ office.title }}">
+          <div class="split-pair">
+            <div class="measure-compact">
+              <p class="text-500">{{ office.address | i18n }}</p>
+              <p class="text-500"><a href="tel:{{ office.telephone }}">{{ office.telephone }}</a></p>
+              <p class="text-500"><a href="mailto:{{ office.email }}">{{ office.email }}</a></p>
+            </div>
+            <div>
+              <div class="embed">
+                <iframe src="https://geolytix.xyz/geodata/view/contact?layers=Base,Offices,Label&lat={{ office.location.lat }}&lng={{ office.location.lng }}&z={{ office.location.zoom }}&locale={{ office.location.locale }}" title="{{ office.title }} Maps" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
   </div>
 </section>
