@@ -6,66 +6,69 @@ metaDesc: Get in touch to see how GEOLYTIX can help you make better network stra
 
 <section class="[ hero ] [ bg-dark text-align-center ]">
   <img src="{% cloudinary '/hero/about4.jpg', 'w_2000,f_auto' %}" class="hero__background" alt="Contact Us Background">
-  <div class="wrapper">
-    <div class="measure-short">
-      <h1>{{ "Contact Us" | i18n }}</h1>
-      <p>{{ "At GEOLYTIX we help retailers make informed decisions about how many stores, who to acquire, where to open, which format, how to optimise home delivery and click & collect operations." | i18n }}</p>
-	  <p>{{ "info@geolytix.com" | i18n }}</p>
-	  <p>{{ "+44 (0)20 7415 7043" | i18n }}</p>
-	  <p>{{ "If you are interested in an advertised job role, please send your CV and cover letter to careers@geolytix.co.uk." | i18n }}</p>
-    </div>
-  </div>
-</section>
-
-<section class="pad-bottom-900">
-  <div class="wrapper wrapper--short">
-    <form action="/api/post" method="post" class="card card-form card-form--overlap">
-      <div class="[ card-form__inner ] [ pad-800 ]">
-        <div class="form-field">
-          <label for="first_name">{{ "First Name" | i18n }}<span class="color-red">*</span></label>
-          <input type="text" id="firstname" name="firstname" required>
-        </div>
-        <div class="form-field">
-          <label for="last_name">{{ "Last Name" | i18n }}<span class="color-red">*</span></label>
-          <input type="text" id="lastname" name="lastname" required>
-        </div>
-        <div class="form-field">
-          <label for="email_address">{{ "Email Address" | i18n }}<span class="color-red">*</span></label>
-          <input type="email" id="email" name="email" required>
-        </div>
-        <div class="form-field">
-          <label for="telephone">{{ "Telephone" | i18n }}</label>
-          <input type="tel" id="phone" name="phone">
-        </div>
-        <div class="form-field form-field--large">
-          <label for="message">{{ "Message" | i18n }}<span class="color-red">*</span></label>
-          <textarea id="message" name="message" required></textarea>
-        </div>
-
-        <div class="form-field form-field--large">
-          <div class="g-recaptcha" data-sitekey="6LcSx8gfAAAAAEtuxPesHMjboipQQOWyAT-aB0WY"></div>
-        </div>
+    <div class="wrapper">
+      <div class="measure-short">
+        <h1>{{ "Contact Us" | i18n }}</h1>
+        <p>{{ "At GEOLYTIX we help retailers make informed decisions about how many stores, who to acquire, where to open, which format, how to optimise home delivery and click & collect operations." | i18n }}</p>
+        <p>{{ "info@geolytix.com" | i18n }}</p>
+        <p>{{ "+44 (0)20 7415 7043" | i18n }}</p>
+        <p>{{ "If you are interested in an advertised job role, please send your CV and cover letter to careers@geolytix.co.uk." | i18n }}</p>
       </div>
-      <div class="[ card-form__actions ] [ bg-regular-gray pad-400 ]">
-        <div class="checkbox-field">
-          <input type="checkbox" name="marketing" id="marketing" value="true">
-          <label for="marketing" class="text-300 weight-light">{{ "We’d love to let you know when we release new open data and update you with all the exciting projects we’re working on" | i18n }}</label>
-        </div>
-        
-        <input type="text" class="visually-hidden" name="url" aria-hidden="true" autocomplete="off">
-        <input type="hidden" name="formID" value="75c9a40b-490c-4e20-9fa9-ffccf3cf0d40">
-        <input type="hidden" name="recaptcha-enabled" value="true">
-        <button type="submit" class="button">{{ "Send Enquiry" | i18n }}</button>
-      </div>
-    </form>
-  </div>
-
-  <div class="wrapper">
-    <h2 class="eyebrow text-align-center color-primary-mid">{{ "Or choose an office" | i18n }}</h2>
-    
-    <div class="embed">
-      <iframe src="https://geolytix.xyz/geodata/view/contact" title="Geolytix Offices" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </div>
-
-  </div>
-</section>
+  </section>
+  <section class="pad-bottom-900">
+    <div class="wrapper wrapper--short">
+      <form action="/api/post" method="post" class="card card-form card-form--overlap">
+        <div class="[ card-form__inner ] [ pad-800 ]">
+          <div class="form-field">
+            <label for="first_name">{{ "First Name" | i18n }}<span class="color-red">*</span>
+            </label>
+            <input type="text" id="firstname" name="firstname" required></div>
+            <div class="form-field">
+              <label for="last_name">{{ "Last Name" | i18n }}<span class="color-red">*</span>
+              </label>
+              <input type="text" id="lastname" name="lastname" required></div>
+              <div class="form-field">
+                <label for="email_address">{{ "Email Address" | i18n }}<span class="color-red">*</span>
+                </label>
+                <input type="email" id="email" name="email" required></div>
+                <div class="form-field">
+                  <label for="telephone">{{ "Telephone" | i18n }}</label>
+                  <input type="tel" id="phone" name="phone"></div>
+                  <div class="form-field form-field--large">
+                    <label for="message">{{ "Message" | i18n }}<span class="color-red">*</span>
+                    </label>
+                    <textarea id="message" name="message" required></textarea>
+                  </div>
+                  <div class="form-field form-field--large">
+                    <div class="g-recaptcha" data-sitekey="6LcSx8gfAAAAAEtuxPesHMjboipQQOWyAT-aB0WY"></div>
+                  </div>
+                </div>
+                <div class="[ card-form__actions ] [ bg-regular-gray pad-400 ]">
+                  <div class="checkbox-field">
+                    <input type="checkbox" name="marketing" id="marketing" value="true">
+                      <label for="marketing" class="text-300 weight-light">{{ "We’d love to let you know when we release new open data and update you with all the exciting projects we’re working on" | i18n }}</label>
+                    </div>
+                    <input type="text" class="visually-hidden" name="url" aria-hidden="true" autocomplete="off">
+                      <input type="hidden" name="formID" value="75c9a40b-490c-4e20-9fa9-ffccf3cf0d40">
+                        <input type="hidden" name="recaptcha-enabled" value="true">
+                          <button type="submit" class="button">{{ "Send Enquiry" | i18n }}</button>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="wrapper">
+                      <h2 class="eyebrow text-align-center color-primary-mid">{{ "Or choose an office" | i18n }}</h2>
+                      <div class="embed">
+                        <iframe
+                          src="https://geolytix.xyz/geodata/view/contact?lat=12.83205&lng=77.43806"
+                          title="Geolytix Offices"
+                          width="600"
+                          height="450"
+                          frameborder="0"
+                          style="border:0;"
+                          allowfullscreen=""
+                          aria-hidden="false"
+                          tabindex="0"></iframe>
+                      </div>
+                    </div>
+                  </section>
