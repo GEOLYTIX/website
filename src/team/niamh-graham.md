@@ -2,6 +2,7 @@
 name: Niamh Graham
 position: Client Account Manager
 linkedin: https://www.linkedin.com/in/niamhg/
+image: niamh-graham-headshot
 date: 2023-07-03
 ---
 
