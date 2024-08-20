@@ -13,3 +13,7 @@
 .logo-grid a {
   display: block;
 }
+
+.logo-grid li {
+  padding: 1em;
+}

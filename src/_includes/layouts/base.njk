@@ -1,61 +1,59 @@
 {% set css %}
-  {% include '../css/utility/auto-grid.css' %}
-  {% include '../css/utility/breakout.css' %}
-  {% include '../css/utility/breakout-button.css' %}
-  {% include '../css/utility/embed.css' %}
-  {% include '../css/utility/flow.css' %}
-  {% include '../css/utility/measure.css' %}
-  {% include '../css/utility/reset.css' %}
-  {% include '../css/utility/split-pair.css' %}
-  {% include '../css/utility/tokens.css' %}
-  {% include '../css/utility/type-scale.css' %}
-  {% include '../css/utility/visibility.css' %}
-  {% include '../css/utility/wrapper.css' %}
-
-  {% include '../css/global/bg.css' %}
-  {% include '../css/global/form.css' %}
-  {% include '../css/global/global.css' %}
-  {% include '../css/global/site-footer.css' %}
-  {% include '../css/global/site-header.css' %}
-  {% include '../css/global/tns.css' %}
-  {% include '../css/global/type.css' %}
-
-  {% include '../css/components/blog-split.css' %}
-  {% include '../css/components/bio.css' %}
-  {% include '../css/components/bio-block.css' %}
-  {% include '../css/components/button.css' %}
-  {% include '../css/components/button-group.css' %}
-  {% include '../css/components/card.css' %}
-  {% include '../css/components/card-carousel.css' %}
-  {% include '../css/components/card-form.css' %}
-  {% include '../css/components/checklist.css' %}
-  {% include '../css/components/checkbox-field.css' %}
-  {% include '../css/components/country-list.css' %}
-  {% include '../css/components/expanded-navigation.css' %}
-  {% include '../css/components/gallery-block.css' %}
-  {% include '../css/components/grid-block.css' %}
-  {% include '../css/components/kg-card.css' %}
-  {% include '../css/components/flag.css' %}
-  {% include '../css/components/form-field.css' %}
-  {% include '../css/components/hero.css' %}
-  {% include '../css/components/hex-background.css' %}
-  {% include '../css/components/location-list.css' %}
-  {% include '../css/components/image-panel.css' %}
-  {% include '../css/components/input-group.css' %}
-  {% include '../css/components/logo-grid.css' %}
-  {% include '../css/components/menu-toggle.css' %}
-  {% include '../css/components/nav.css' %}
-  {% include '../css/components/newsletter-form.css' %}
-  {% include '../css/components/promo-split.css' %}
-  {% include '../css/components/search-result.css' %}
-  {% include '../css/components/segment-control.css' %}
-  {% include '../css/components/stat-block.css' %}
-  {% include '../css/components/quote.css' %}
-  {% include '../css/components/tabs.css' %}
-  {% include '../css/components/tag-list.css' %}
-  {% include '../css/components/window.css' %}
-
-  {% include '../css/vendor/tiny-slider.css' %}
+{% include '../css/utility/auto-grid.css' %}
+{% include '../css/utility/breakout.css' %}
+{% include '../css/utility/breakout-button.css' %}
+{% include '../css/utility/embed.css' %}
+{% include '../css/utility/flow.css' %}
+{% include '../css/utility/measure.css' %}
+{% include '../css/utility/reset.css' %}
+{% include '../css/utility/split-pair.css' %}
+{% include '../css/utility/tokens.css' %}
+{% include '../css/utility/type-scale.css' %}
+{% include '../css/utility/visibility.css' %}
+{% include '../css/utility/wrapper.css' %}
+{% include '../css/global/bg.css' %}
+{% include '../css/global/form.css' %}
+{% include '../css/global/global.css' %}
+{% include '../css/global/site-footer.css' %}
+{% include '../css/global/site-header.css' %}
+{% include '../css/global/tns.css' %}
+{% include '../css/global/type.css' %}
+{% include '../css/components/blog-split.css' %}
+{% include '../css/components/bio.css' %}
+{% include '../css/components/bio-block.css' %}
+{% include '../css/components/button.css' %}
+{% include '../css/components/button-group.css' %}
+{% include '../css/components/card.css' %}
+{% include '../css/components/card-carousel.css' %}
+{% include '../css/components/card-form.css' %}
+{% include '../css/components/checklist.css' %}
+{% include '../css/components/checkbox-field.css' %}
+{% include '../css/components/country-list.css' %}
+{% include '../css/components/expanded-navigation.css' %}
+{% include '../css/components/gallery-block.css' %}
+{% include '../css/components/grid-block.css' %}
+{% include '../css/components/kg-card.css' %}
+{% include '../css/components/flag.css' %}
+{% include '../css/components/form-field.css' %}
+{% include '../css/components/hero.css' %}
+{% include '../css/components/hex-background.css' %}
+{% include '../css/components/location-list.css' %}
+{% include '../css/components/image-panel.css' %}
+{% include '../css/components/input-group.css' %}
+{% include '../css/components/logo-grid.css' %}
+{% include '../css/components/client-logo-grid.css' %}
+{% include '../css/components/menu-toggle.css' %}
+{% include '../css/components/nav.css' %}
+{% include '../css/components/newsletter-form.css' %}
+{% include '../css/components/promo-split.css' %}
+{% include '../css/components/search-result.css' %}
+{% include '../css/components/segment-control.css' %}
+{% include '../css/components/stat-block.css' %}
+{% include '../css/components/quote.css' %}
+{% include '../css/components/tabs.css' %}
+{% include '../css/components/tag-list.css' %}
+{% include '../css/components/window.css' %}
+{% include '../css/vendor/tiny-slider.css' %}
 {% endset %}
 <!doctype html>
 <html class="no-js" lang="{{ site.locale.code }}">
@@ -63,32 +61,28 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="norton-safeweb-site-verification" content="n3qyfk5nuhz10rarklnn53fnaladhl-q5c8frs4wfic49qmc8mvptvfi2v45usvdnljv26njlbipuueur-gizw32dsepcaxp-b2xf5cze6e3axg-ngf03k2glmw3kcbf" />
-    {% include 'partials/meta.njk' %}
-    {%- block head -%}{%- endblock -%}
-    
-    <style>
-      {{ css | cssmin | safe }}
-    </style>
-
-    <script src="/js/components/tabs.js" defer></script>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/7361526.js"></script>
-  </head>
-  <body>
-    {{ content | safe }}
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-187901216-2"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-187901216-2');
-    </script>
-
-    {%- block extrajs -%}{%- endblock -%}
-
-  </body>
-</html>
+    <meta
+      name="norton-safeweb-site-verification"
+      content="n3qyfk5nuhz10rarklnn53fnaladhl-q5c8frs4wfic49qmc8mvptvfi2v45usvdnljv26njlbipuueur-gizw32dsepcaxp-b2xf5cze6e3axg-ngf03k2glmw3kcbf"/> {% include 'partials/meta.njk' %}
+    {%- block head -%}
+  {%- endblock -%}
+  <style>
+    {{css | cssmin | safe}}</style>
+  <script src="/js/components/tabs.js" defer></script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/7361526.js"></script>
+</head>
+<body>
+  {{ content | safe }}
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-187901216-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-187901216-2');
+  </script>
+  {%- block extrajs -%}
+{%- endblock -%}</body></html>

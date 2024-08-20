@@ -7,304 +7,304 @@ hideAwards: true
 
 <section class="[ hero ] [ bg-dark ]">
   <img src="{% cloudinary '/hero/home.jpg', 'w_2000,f_auto' %}" class="hero__background" alt="Home Background">
-  <div class="wrapper">
-    <div class="measure-short">
-      <h1>{{ "Make better decisions where location matters." | i18n }}</h1>
-      <p>{{ "At Geolytix, our location-planning experts build tools and data that help our customers understand and optimise location when creating both physical and online distribution networks." | i18n }}</p>
-
-      <div class="button-group">
-        <a href="#geodata" class="button">{{ "View Our Products" | i18n }}</a>
-        <a href="/about/" class="button button--outline">{{ "Read More About Us" | i18n }}</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="wrapper">
-  <div class="[ image-panel ] [ lg:breakout-left ]">
-    <div class="image-panel__content">
-      <div class="pad-top-900 pad-bottom-900">
-        <h2>{{ "When location matters, organisations turn to us first" | i18n }}</h2>
-        <p>{{ "Since the day Geolytix came into being, we've been telling our customers where to go; how many stores, who to acquire, where to open and how to optimise home delivery and click & collect operations." | i18n }}</p>
-        <p>{{ "Investing in stores and online is expensive. We'll help you spend your money wisely" | i18n }}</p>
-        <a href="/about/" class="button button--outline">{{ "Read more about us" | i18n }}</a>
-      </div>
-    </div>
-
-    <img src="{% cloudinary '/hero/GEOLYTIX_Feb_2023.jpg', 'w_732,f_auto' %}" srcset="{% cloudinary '/hero/GEOLYTIX_Feb_2023.jpg', 'w_732,f_auto,dpr_2.0' %} 2x" width="672" height="605" class="image-panel__image" alt="The Team">
-  </div>
-</section>
-
-<section class="bg-regular-gray pad-top-500 pad-bottom-500">
-  <div class="wrapper">
-    <ul class="[ stat-block-grid ] [ auto-grid ]">
-      <li class="stat-block">
-        <h2 class="stat-block__number"><a href="/about/#team" class="breakout-button">58</a></h2>
-        <p class="stat-block__overview">{{ "Talented People" | i18n }}</p>
-      </li>
-      <li class="stat-block">
-        <h2 class="stat-block__number"><a href="/blog/global-retail-places/" class="breakout-button">50k</a></h2>
-        <p class="stat-block__overview">{{ "Retail Places" | i18n }}</p>
-      </li>
-      <li class="stat-block">
-        <h2 class="stat-block__number"><a href="/about/" class="breakout-button">1</a></h2>
-        <p class="stat-block__overview">{{ "Shared Purpose" | i18n }}</p>
-      </li>
-      <li class="stat-block">
-        <h2 class="stat-block__number"><a href="/about/#global" class="breakout-button">106</a></h2>
-        <p class="stat-block__overview">{{ "Countries" | i18n }}</p>
-      </li>
-      <li class="stat-block">
-        <h2 class="stat-block__number"><a href="https://geolytix.com/blog/tag/mobility/" class="breakout-button">211bn</a></h2>
-        <p class="stat-block__overview">{{ "Mobile Pings" | i18n }}</p>
-      </li>
-    </ul>
-  </div>
-</section>
-
-<section id="services" class="[ hex-background ] [ pad-top-900 pad-bottom-900 bg-dark color-primary-light ]">
-  <canvas class="hex-background__canvas"></canvas>
-  <script src="/js/components/hex-background.js" defer></script>
-
-  <div class="wrapper">
-    <div class="text-align-center gap-bottom-800">
-      <div class="measure-compact">
-        <h2 class="eyebrow">{{ "What We Do" | i18n }}</h2>
-        <h3 class="text-700">{{ "We help our customers make informed decisions" | i18n }}</h3>
-        <p>{{ "Since the day Geolytix came into being, we've been telling our customers where to go; how many stores, who to acquire, where to open and how to optimise home delivery and click & collect operations." | i18n }}</p>
-      </div>
-    </div>
-
-    <ul class="auto-grid">
-      <li class="grid-block">
-        <img src="/img/icons/network.svg" width="48" height="48" alt="Network icon" class="grid-block__icon">
-        <h3 class="grid-block__title">{{ "Network Strategy" | i18n }}</h3>
-        <p>{{ "It’s never been more important for a retailer to understand how to optimise its store network. Whether you want to understand the potential number of stores you can open, how new formats will work together or how many stores you should close, given your growth in online sales, we can help." | i18n }}</p>
-      </li>
-      <li class="grid-block">
-        <img src="/img/icons/location.svg" width="48" height="48" alt="Location icon" class="grid-block__icon">
-        <a class="text-decoration-none" href="/location-planning">
-          <h3 class="grid-block__title">{{ "Location Planning" | i18n }}</h3>
-        </a>
-        <p>{{ "Many of us have worked as Location Planners for major retailers. Over the years we have had experience in all industries and the public sector across the world. Whether you need to understand how much a new store will take, sales cannibalisation or your online and offline customer profiles we can help." | i18n }}</p>
-      </li>
-      <li class="grid-block">
-        <img src="/img/icons/omnichannel.svg" width="48" height="48" alt="Omnichannel icon" class="grid-block__icon">
-        <h3 class="grid-block__title">{{ "Omnichannel Retailing" | i18n }}</h3>
-        <p>{{ "GEOLYTIX believe many businesses are missing a trick by not better combining their demographic, spatial and customer data. Whether its loyalty card, online, banking or mobility data we would love the opportunity to help you drive out more insight and get the right mix of Bricks and Clicks." | i18n }}</p>
-      </li>
-      <li class="grid-block">
-        <img src="/img/icons/spatial.svg" width="48" height="48" alt="Spatial icon" class="grid-block__icon">
-        <h3 class="grid-block__title">{{ "Spatial Modelling" | i18n }}</h3>
-        <p>{{ "Spatial is different. GEOLYTIX understand when a simple scorecard will suffice, or when a customised gravity model or machine learning techniques will drive added value. We understand businesses don’t just need a model, but a framework that will improve your processes & management reporting." | i18n }}</p>
-      </li>
-    </ul>
-  </div>
-</section>
-
-<section id="geodata" class="pad-top-900">
-  <div class="wrapper">
-    <div class="text-align-center gap-bottom-700">
-      <div class="measure-compact">
-        <h2 class="eyebrow">{{ "GeoData" | i18n }}</h2>
-        <h3 class="text-700">{{ "Where people live, work, study and shop." | i18n }}</h3>
-        <p>{{ "We create datasets across the globe to help with your network strategy and location based decisions." | i18n }}</p>
-      </div>
-    </div>
-
-    <div class="tabs">
-      <div class="text-align-center display-none md:display-block">
-        <ul class="segment-control" role="tablist">
-          {% for item in geodata.items %}
-            <li role="tab"{% if loop.first %} aria-selected="true"{% endif %} data-tab="{{ item.title | slug }}">
-              <button>{{ item.title | i18n }}</button>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-
-      {% for item in geodata.items %}
-        <div data-tab-id="{{ item.title | slug }}" role="tabpanel" aria-hidden="{% if loop.first %}false{% else %}true{% endif %}" aria-label="{{ item.title }}">
-          <div class="[ window ] [ display-none md:display-block ]">
-            <div class="window__toolbar">
-              <span class="window__toolbar-item"></span>
-              <span class="window__toolbar-item"></span>
-              <span class="window__toolbar-item"></span>
-            </div>
-            <div class="window__inner">
-              <iframe src="{{ item.iframe }}" aria-label="{{ item.title }} GeoData"></iframe>
-            </div>
-          </div>
-          <div class="text-align-center pad-bottom-400 display-block md:display-none">
-            <a href="https://geolytix.xyz/geodata?locale=London" class="button" target="_blank" rel="noopener noreferrer">Open maps &rarr;</a>
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-
-<section id="mobility" class="bg-cream-light pad-top-900">
-  <div class="wrapper">
-    <div class="text-align-center gap-bottom-700">
-      <div class="measure-compact">
-        <h2 class="eyebrow">{{ "Mobility Data" | i18n }}</h2>
-        <h3 class="text-700">{{ "Movement patterns of people using mobility data" | i18n }}</h3>
-        <p>{{ "Granular level understanding of activity, anywhere in the world, with the ability to show pitch, catchments, and changes over time" | i18n }}</p>
-      </div>
-    </div>
-
-    <div class="tabs">
-      <div class="text-align-center display-none md:display-block">
-        <ul class="segment-control" role="tablist">
-          {% for item in mobility.items %}
-            <li role="tab"{% if loop.first %} aria-selected="true"{% endif %} data-tab="{{ item.title | slug }}">
-              <button>{{ item.title | i18n }}</button>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-
-      {% for item in mobility.items %}
-        <div data-tab-id="{{ item.title | slug }}" role="tabpanel" aria-hidden="{% if loop.first %}false{% else %}true{% endif %}" aria-label="{{ item.title }}">
-          <div class="[ window ] [ display-none md:display-block ]">
-            <div class="window__toolbar">
-              <span class="window__toolbar-item"></span>
-              <span class="window__toolbar-item"></span>
-              <span class="window__toolbar-item"></span>
-            </div>
-            <div class="window__video">
-              <video src="https://res.cloudinary.com/dvx8vwneg/video/upload/q_auto:eco/website/mobility/{{ item.video }}" muted autoplay playsinline loop></video>
-            </div>
-          </div>
-          <div class="text-align-center pad-bottom-400 display-block md:display-none">
-            <a href="https://geolytix.xyz/geodata?locale=London" class="button" target="_blank" rel="noopener noreferrer">Open maps &rarr;</a>
-          </div>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-
-<section id="mapp" class="pad-top-900">
-  <div class="wrapper">
-    <div class="text-align-center gap-bottom-800">
-      <div class="measure-compact">
-        <h2 class="eyebrow">{{ "MAPP" | i18n }}</h2>
-        <h3 class="text-700">{{ "Predictive location intelligence customised for you." | i18n }}</h3>
-      </div>
-    </div>
-
-    <div class="auto-grid">
-      <div>
-        <h3 class="eyebrow">Overview</h3>
-        <p>{{ "MAPP is our online market intelligence and mapping tool which allows anybody to use location data for business decision-making." | i18n }}</p>
-        <p>{{ "We create bespoke, innovative solutions which work for you." | i18n }}</p>
-        <p>{{ "Visualise your stores, competitors, filter by performance and generate reports and dashboards in a matter of seconds..." | i18n }}</p>
-      </div>
-      <div>
-        <h3 class="eyebrow">Key Features</h3>
-        <ul class="checklist">
-          <li>{{ "Catchment & demographic analysis" | i18n }}</li>
-          <li>{{ "Site feasibility assessments" | i18n }}</li>
-          <li>{{ "Gap analysis & hotspots" | i18n }}</li>
-          <li>{{ "Import & export data" | i18n }}</li>
-          <li>{{ "User roles" | i18n }}</li>
-        </ul>
-      </div>
-      <div>
-        <h3 class="eyebrow">Key Benefits</h3>
-        <ul class="checklist">
-          <li>{{ "Simple & easy-to-use" | i18n }}</li>
-          <li>{{ "Accessible anywhere" | i18n }}</li>
-          <li>{{ "Secure" | i18n }}</li>
-          <li>{{ "Unlimited usage" | i18n }}</li>
-          <li>{{ "Integrated data & modelling" | i18n }}</li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="window">
-      <div class="window__toolbar">
-        <span class="window__toolbar-item"></span>
-        <span class="window__toolbar-item"></span>
-        <span class="window__toolbar-item"></span>
-      </div>
-      <div class="window__video">
-        <video src="https://res.cloudinary.com/dvx8vwneg/video/upload/q_auto:eco/website/video/mapp.mp4" muted autoplay playsinline loop></video>
-      </div>
-    </div>
-
-    {# <div class="[ button-group ] [ text-align-center gap-top-600 gap-bottom-600 ]">
-    <a href="https://geolytix.xyz/mapp" class="button" target="_blank" rel="noopener noreferrer">{{ "Try MAPP for free" | i18n }}</a>
-  </div> #}
-  </div>
-</section>
-
-<section class="pad-top-900 pad-bottom-900">
-  <div class="wrapper">
-    <div class="text-align-center gap-bottom-800">
-      <div class="measure-compact">
-        <h3 class="text-700">{{ "We create success stories" | i18n }}</h3>
-        <p>{{ "We build close, on-going relationships with our customers and will become your trusted advisers" | i18n }}</p>
-      </div>
-    </div>
-  </div>
-
-  <ul class="card-carousel">
-    {% for story in collections.success %}
-      <li>
-        {% include './_includes/partials/case-study-card.njk' %}
-      </li>
-    {% endfor %}
-  </ul>
-
-  <script src="/js/vendor/tiny-slider.js" defer></script>
-  <script src="/js/components/card-carousel.js" defer></script>
-
-  <div class="wrapper wrapper--short">
-    <div class="text-align-center gap-top-800">
-      <h3 class="eyebrow color-primary-mid gap-bottom-600">{{ "Our Customers also include:" | i18n }}</h3>
-
-      <ul class="[ logo-grid ] [ auto-grid ]">
-        {% for customer in customers.items %}
-          <li>
-            {% if customer.has_story %}<a href="/success-stories/{{ customer.name | slug }}/">{% endif %}
-            <img src="{% cloudinary customer.logo.path %}" width="{{ customer.logo.width }}" height="{{ customer.logo.height }}" alt="{{ customer.name }} Logo">
-            {% if customer.has_story %}</a>{% endif %}
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section class="bg-cream-light pad-top-900 pad-bottom-900">
-  <div class="wrapper wrapper--short">
-    <div class="gap-bottom-700 text-align-center">
-        <h3 class="text-700">{{ "We’re delighted to have won two Queens Awards, our first for Innovation and second for International Trade." | i18n }}</h3>
-        <p>{{ "Join the many companies who put their trust in us. Let’s find a solution together." | i18n }}</p>
-        <a href="/contact/" class="button">{{ "Let's Talk" | i18n }}</a>
-      </div>
-    </div>
-
     <div class="wrapper">
-      <div class="auto-grid">
-        <blockquote class="quote">
-          <p>{{ "Geolytix has attracted the attention of some impressive clients. A real enabler of business with their product, but also and equally impressive, an enabler through their approach to staff" | i18n }}</p>
-          <cite>Simon Freary, CEO Chartered Quality Institute</cite>
-        </blockquote>
-
-        <blockquote class="quote">
-          <p>{{ "Geolytix is a global thought leader in its niche and selling to top brands. This appears to be a company that likes the direction in which it’s going, and the people on the journey. This is a role model leader in its commercial field" | i18n }}</p>
-          <cite>Emma Jones, CEO Enterprise Nation</cite>
-        </blockquote>
-      </div>
-
-      <div class="gap-top-700 text-align-center">
-        <h2 class="eyebrow">{{ "Proudly recognised by the best" | i18n }}</h2>
-        {% include './_includes/partials/awards.njk' %}
+      <div class="measure-short">
+        <h1>{{ "Make better decisions where location matters." | i18n }}</h1>
+        <p>{{ "At Geolytix, our location-planning experts build tools and data that help our customers understand and optimise location when creating both physical and online distribution networks." | i18n }}</p>
+        <div class="button-group">
+          <a href="#geodata" class="button">{{ "View Our Products" | i18n }}</a>
+          <a href="/about/" class="button button--outline">{{ "Read More About Us" | i18n }}</a>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
+  <section class="wrapper">
+    <div class="[ image-panel ] [ lg:breakout-left ]">
+      <div class="image-panel__content">
+        <div class="pad-top-900 pad-bottom-900">
+          <h2>{{ "When location matters, organisations turn to us first" | i18n }}</h2>
+          <p>{{ "Since the day Geolytix came into being, we've been telling our customers where to go; how many stores, who to acquire, where to open and how to optimise home delivery and click & collect operations." | i18n }}</p>
+          <p>{{ "Investing in stores and online is expensive. We'll help you spend your money wisely" | i18n }}</p>
+          <a href="/about/" class="button button--outline">{{ "Read more about us" | i18n }}</a>
+        </div>
+      </div>
+      <img src="{% cloudinary '/hero/GEOLYTIX_Feb_2023.jpg', 'w_732,f_auto' %}" srcset="{% cloudinary '/hero/GEOLYTIX_Feb_2023.jpg', 'w_732,f_auto,dpr_2.0' %} 2x" width="672" height="605" class="image-panel__image" alt="The Team"></div>
+    </section>
+    <section class="bg-regular-gray pad-top-500 pad-bottom-500">
+      <div class="wrapper">
+        <ul class="[ stat-block-grid ] [ auto-grid ]">
+          <li class="stat-block">
+            <h2 class="stat-block__number">
+              <a href="/about/#team" class="breakout-button">58</a>
+            </h2>
+            <p class="stat-block__overview">{{ "Talented People" | i18n }}</p>
+          </li>
+          <li class="stat-block">
+            <h2 class="stat-block__number">
+              <a href="/blog/global-retail-places/" class="breakout-button">50k</a>
+            </h2>
+            <p class="stat-block__overview">{{ "Retail Places" | i18n }}</p>
+          </li>
+          <li class="stat-block">
+            <h2 class="stat-block__number">
+              <a href="/about/" class="breakout-button">1</a>
+            </h2>
+            <p class="stat-block__overview">{{ "Shared Purpose" | i18n }}</p>
+          </li>
+          <li class="stat-block">
+            <h2 class="stat-block__number">
+              <a href="/about/#global" class="breakout-button">106</a>
+            </h2>
+            <p class="stat-block__overview">{{ "Countries" | i18n }}</p>
+          </li>
+          <li class="stat-block">
+            <h2 class="stat-block__number">
+              <a href="https://geolytix.com/blog/tag/mobility/" class="breakout-button">211bn</a>
+            </h2>
+            <p class="stat-block__overview">{{ "Mobile Pings" | i18n }}</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="services" class="[ hex-background ] [ pad-top-900 pad-bottom-900 bg-dark color-primary-light ]">
+      <canvas class="hex-background__canvas"></canvas>
+      <script src="/js/components/hex-background.js" defer></script>
+      <div class="wrapper">
+        <div class="text-align-center gap-bottom-800">
+          <div class="measure-compact">
+            <h2 class="eyebrow">{{ "What We Do" | i18n }}</h2>
+            <h3 class="text-700">{{ "We help our customers make informed decisions" | i18n }}</h3>
+            <p>{{ "Since the day Geolytix came into being, we've been telling our customers where to go; how many stores, who to acquire, where to open and how to optimise home delivery and click & collect operations." | i18n }}</p>
+          </div>
+        </div>
+        <ul class="auto-grid">
+          <li class="grid-block">
+            <img src="/img/icons/network.svg" width="48" height="48" alt="Network icon" class="grid-block__icon">
+              <h3 class="grid-block__title">{{ "Network Strategy" | i18n }}</h3>
+              <p>{{ "It’s never been more important for a retailer to understand how to optimise its store network. Whether you want to understand the potential number of stores you can open, how new formats will work together or how many stores you should close, given your growth in online sales, we can help." | i18n }}</p>
+            </li>
+            <li class="grid-block">
+              <img src="/img/icons/location.svg" width="48" height="48" alt="Location icon" class="grid-block__icon">
+                <a class="text-decoration-none" href="/location-planning">
+                  <h3 class="grid-block__title">{{ "Location Planning" | i18n }}</h3>
+                </a>
+                <p>{{ "Many of us have worked as Location Planners for major retailers. Over the years we have had experience in all industries and the public sector across the world. Whether you need to understand how much a new store will take, sales cannibalisation or your online and offline customer profiles we can help." | i18n }}</p>
+              </li>
+              <li class="grid-block">
+                <img src="/img/icons/omnichannel.svg" width="48" height="48" alt="Omnichannel icon" class="grid-block__icon">
+                  <h3 class="grid-block__title">{{ "Omnichannel Retailing" | i18n }}</h3>
+                  <p>{{ "GEOLYTIX believe many businesses are missing a trick by not better combining their demographic, spatial and customer data. Whether its loyalty card, online, banking or mobility data we would love the opportunity to help you drive out more insight and get the right mix of Bricks and Clicks." | i18n }}</p>
+                </li>
+                <li class="grid-block">
+                  <img src="/img/icons/spatial.svg" width="48" height="48" alt="Spatial icon" class="grid-block__icon">
+                    <h3 class="grid-block__title">{{ "Spatial Modelling" | i18n }}</h3>
+                    <p>{{ "Spatial is different. GEOLYTIX understand when a simple scorecard will suffice, or when a customised gravity model or machine learning techniques will drive added value. We understand businesses don’t just need a model, but a framework that will improve your processes & management reporting." | i18n }}</p>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <section id="geodata" class="pad-top-900">
+              <div class="wrapper">
+                <div class="text-align-center gap-bottom-700">
+                  <div class="measure-compact">
+                    <h2 class="eyebrow">{{ "GeoData" | i18n }}</h2>
+                    <h3 class="text-700">{{ "Where people live, work, study and shop." | i18n }}</h3>
+                    <p>{{ "We create datasets across the globe to help with your network strategy and location based decisions." | i18n }}</p>
+                  </div>
+                </div>
+                <div class="tabs">
+                  <div class="text-align-center display-none md:display-block">
+                    <ul class="segment-control" role="tablist">
+                      {% for item in geodata.items %}
+                        <li role="tab" {% if loop.first %} aria-selected="true" {% endif %} data-tab="{{ item.title | slug }}">
+                          <button>{{ item.title | i18n }}</button>
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                  {% for item in geodata.items %}
+                    <div data-tab-id="{{ item.title | slug }}" role="tabpanel" aria-hidden="{% if loop.first %}false{% else %}true{% endif %}" aria-label="{{ item.title }}">
+                      <div class="[ window ] [ display-none md:display-block ]">
+                        <div class="window__toolbar">
+                          <span class="window__toolbar-item"></span>
+                          <span class="window__toolbar-item"></span>
+                          <span class="window__toolbar-item"></span>
+                        </div>
+                        <div class="window__inner">
+                          <iframe src="{{ item.iframe }}" aria-label="{{ item.title }} GeoData"></iframe>
+                        </div>
+                      </div>
+                      <div class="text-align-center pad-bottom-400 display-block md:display-none">
+                        <a href="https://geolytix.xyz/geodata?locale=London" class="button" target="_blank" rel="noopener noreferrer">Open maps
+                          &rarr;</a>
+                      </div>
+                    </div>
+                  {% endfor %}
+                </div>
+              </div>
+            </section>
+            <section id="mobility" class="bg-cream-light pad-top-900">
+              <div class="wrapper">
+                <div class="text-align-center gap-bottom-700">
+                  <div class="measure-compact">
+                    <h2 class="eyebrow">{{ "Mobility Data" | i18n }}</h2>
+                    <h3 class="text-700">{{ "Movement patterns of people using mobility data" | i18n }}</h3>
+                    <p>{{ "Granular level understanding of activity, anywhere in the world, with the ability to show pitch, catchments, and changes over time" | i18n }}</p>
+                  </div>
+                </div>
+                <div class="tabs">
+                  <div class="text-align-center display-none md:display-block">
+                    <ul class="segment-control" role="tablist">
+                      {% for item in mobility.items %}
+                        <li role="tab" {% if loop.first %} aria-selected="true" {% endif %} data-tab="{{ item.title | slug }}">
+                          <button>{{ item.title | i18n }}</button>
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                  {% for item in mobility.items %}
+                    <div data-tab-id="{{ item.title | slug }}" role="tabpanel" aria-hidden="{% if loop.first %}false{% else %}true{% endif %}" aria-label="{{ item.title }}">
+                      <div class="[ window ] [ display-none md:display-block ]">
+                        <div class="window__toolbar">
+                          <span class="window__toolbar-item"></span>
+                          <span class="window__toolbar-item"></span>
+                          <span class="window__toolbar-item"></span>
+                        </div>
+                        <div class="window__video">
+                          <video
+                            src="https://res.cloudinary.com/dvx8vwneg/video/upload/q_auto:eco/website/mobility/{{ item.video }}"
+                            muted
+                            autoplay
+                            playsinline
+                            loop></video>
+                        </div>
+                      </div>
+                      <div class="text-align-center pad-bottom-400 display-block md:display-none">
+                        <a href="https://geolytix.xyz/geodata?locale=London" class="button" target="_blank" rel="noopener noreferrer">Open maps
+                          &rarr;</a>
+                      </div>
+                    </div>
+                  {% endfor %}
+                </div>
+              </div>
+            </section>
+            <section id="mapp" class="pad-top-900">
+              <div class="wrapper">
+                <div class="text-align-center gap-bottom-800">
+                  <div class="measure-compact">
+                    <h2 class="eyebrow">{{ "MAPP" | i18n }}</h2>
+                    <h3 class="text-700">{{ "Predictive location intelligence customised for you." | i18n }}</h3>
+                  </div>
+                </div>
+                <div class="auto-grid">
+                  <div>
+                    <h3 class="eyebrow">Overview</h3>
+                    <p>{{ "MAPP is our online market intelligence and mapping tool which allows anybody to use location data for business decision-making." | i18n }}</p>
+                    <p>{{ "We create bespoke, innovative solutions which work for you." | i18n }}</p>
+                    <p>{{ "Visualise your stores, competitors, filter by performance and generate reports and dashboards in a matter of seconds..." | i18n }}</p>
+                  </div>
+                  <div>
+                    <h3 class="eyebrow">Key Features</h3>
+                    <ul class="checklist">
+                      <li>{{ "Catchment & demographic analysis" | i18n }}</li>
+                      <li>{{ "Site feasibility assessments" | i18n }}</li>
+                      <li>{{ "Gap analysis & hotspots" | i18n }}</li>
+                      <li>{{ "Import & export data" | i18n }}</li>
+                      <li>{{ "User roles" | i18n }}</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 class="eyebrow">Key Benefits</h3>
+                    <ul class="checklist">
+                      <li>{{ "Simple & easy-to-use" | i18n }}</li>
+                      <li>{{ "Accessible anywhere" | i18n }}</li>
+                      <li>{{ "Secure" | i18n }}</li>
+                      <li>{{ "Unlimited usage" | i18n }}</li>
+                      <li>{{ "Integrated data & modelling" | i18n }}</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="window">
+                  <div class="window__toolbar">
+                    <span class="window__toolbar-item"></span>
+                    <span class="window__toolbar-item"></span>
+                    <span class="window__toolbar-item"></span>
+                  </div>
+                  <div class="window__video">
+                    <video
+                      src="https://res.cloudinary.com/dvx8vwneg/video/upload/q_auto:eco/website/video/mapp.mp4"
+                      muted
+                      autoplay
+                      playsinline
+                      loop></video>
+                  </div>
+                </div>
+                {# <div class="[ button-group ] [ text-align-center gap-top-600 gap-bottom-600 ]">
+                    <a href="https://geolytix.xyz/mapp" class="button" target="_blank" rel="noopener noreferrer">{{ "Try MAPP for free" | i18n }}</a>
+                  </div> #}
+              </div>
+            </section>
+            <section class="pad-top-900 pad-bottom-900">
+              <div class="wrapper">
+                <div class="text-align-center gap-bottom-800">
+                  <div class="measure-compact">
+                    <h3 class="text-700">{{ "We create success stories" | i18n }}</h3>
+                    <p>{{ "We build close, on-going relationships with our customers and will become your trusted advisers" | i18n }}</p>
+                  </div>
+                </div>
+              </div>
+              <ul class="card-carousel">
+                {% for story in collections.success %}
+                  <li>
+                    {% include './_includes/partials/case-study-card.njk' %}
+                  </li>
+                {% endfor %}
+              </ul>
+              <script src="/js/vendor/tiny-slider.js" defer></script>
+              <script src="/js/components/card-carousel.js" defer></script>
+              <div class="wrapper wrapper--short">
+                <div class="text-align-center gap-top-800">
+                  <h3 class="eyebrow color-primary-mid gap-bottom-600">{{ "Our Customers also include:" | i18n }}</h3>
+                  <ul class="[ client-logo-grid ] [ auto-grid ]">
+                    {% for customer in customers.items %}
+                      <li>
+                        {% if customer.has_story %}
+                          <a href="/success-stories/{{ customer.name | slug }}/">
+                          {% endif %}
+                          <img src="{% cloudinary customer.logo.path %}" width="{{ customer.logo.width }}" height="{{ customer.logo.height }}" alt="{{ customer.name }} Logo">
+                            {% if customer.has_story %}
+                            </a>
+                          {% endif %}
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                </div>
+              </section>
+              <section class="bg-cream-light pad-top-900 pad-bottom-900">
+                <div class="wrapper wrapper--short">
+                  <div class="gap-bottom-700 text-align-center">
+                    <h3 class="text-700">{{ "We’re delighted to have won two Queens Awards, our first for Innovation and second for International Trade." | i18n }}</h3>
+                    <p>{{ "Join the many companies who put their trust in us. Let’s find a solution together." | i18n }}</p>
+                    <a href="/contact/" class="button">{{ "Let's Talk" | i18n }}</a>
+                  </div>
+                </div>
+                <div class="wrapper">
+                  <div class="auto-grid">
+                    <blockquote class="quote">
+                      <p>{{ "Geolytix has attracted the attention of some impressive clients. A real enabler of business with their product, but also and equally impressive, an enabler through their approach to staff" | i18n }}</p>
+                      <cite>Simon Freary, CEO Chartered Quality Institute</cite>
+                    </blockquote>
+                    <blockquote class="quote">
+                      <p>{{ "Geolytix is a global thought leader in its niche and selling to top brands. This appears to be a company that likes the direction in which it’s going, and the people on the journey. This is a role model leader in its commercial field" | i18n }}</p>
+                      <cite>Emma Jones, CEO Enterprise Nation</cite>
+                    </blockquote>
+                  </div>
+                  <div class="gap-top-700 text-align-center">
+                    <h2 class="eyebrow">{{ "Proudly recognised by the best" | i18n }}</h2>
+                    {% include './_includes/partials/awards.njk' %}
+                  </div>
+                </div>
+              </div>
+            </section>
+          </li>
