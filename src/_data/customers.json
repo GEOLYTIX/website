@@ -8,20 +8,21 @@
         "height": "77"
       }
     },
+	    {
+      "name": "American Golf",
+      "has_story": true,
+      "logo": {
+        "path": "/stories/logos/american-golf.png",
+        "width": "2121",
+        "height": "623"
+      }
+    },
     {
       "name": "Anytime Fitness",
       "logo": {
         "path": "/stories/logos/anytime-fitness.png",
         "width": "1858",
         "height": "670"
-      }
-    },
-    {
-      "name": "Arco",
-      "logo": {
-        "path": "/stories/logos/arco.svg",
-        "width": "3228",
-        "height": "936"
       }
     },
     {
