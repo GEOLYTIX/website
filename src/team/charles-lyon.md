@@ -2,7 +2,7 @@
 name: Charles Lyon
 position: Data Analyst (Placement)
 
-image: placeholder
+image: CharlesLyon.jpg
 date: 2024-07-29
 ---
 
