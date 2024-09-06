@@ -2,7 +2,7 @@
 name: Aimee Thomason
 position: Data Scientist
 linkedin: https://www.linkedin.com/in/aimee-thomason-393765204/
-image: aimee_thomason
+image: aimee_headshot
 date: 2022-03-14
 ---
 
