@@ -22,3 +22,4 @@ May 18 - Our Team Geolytix France
 24th Oct 23 - Update to France Retail blog
 5th Dec 23 - Update blogs on translated websites
 17th Feb 24 - Added in-store media blog
+17th Sept 24 - Update Blogs
