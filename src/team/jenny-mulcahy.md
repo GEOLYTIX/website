@@ -2,7 +2,7 @@
 name: Jenny Mulcahy
 position: Location Planning Partner
 linkedin: https://www.linkedin.com/in/jennifer-mulcahy-69830b27/
-image: jenny-mulcahy.jpg
+image: jenny-mulcahy
 date: 2024-07-16
 ---
 
