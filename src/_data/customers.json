@@ -79,7 +79,7 @@
     {
       "name": "Currys",
       "logo": {
-        "path": "/stories/logos/currys.svg",
+        "path": "/stories/logos/currys.png",
         "width": "1587",
         "height": "1123"
       }
@@ -150,6 +150,15 @@
         "path": "/stories/logos/kfc.svg",
         "width": "779",
         "height": "779"
+      }
+	},
+    {
+      "name": "Loaf",
+      "has_story": true,
+      "logo": {
+        "path": "/stories/logos/loaf-logo.png",
+        "width": "1773",
+        "height": "1085"
       }
     },
     {
@@ -242,14 +251,6 @@
         "path": "/stories/logos/waitrose.svg",
         "width": "652",
         "height": "652"
-      }
-    },
-    {
-      "name": "Walmart",
-      "logo": {
-        "path": "/stories/logos/walmart.svg",
-        "width": "2500",
-        "height": "719"
       }
     },
     {
