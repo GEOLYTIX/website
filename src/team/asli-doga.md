@@ -1,5 +1,5 @@
 ---
-name: Asli Doga
+name: Asli Doga Kanturk
 position: MAPP Analyst
 
 image: asli_headshot
