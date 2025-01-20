@@ -2,6 +2,7 @@
 name: Alison Moriarty
 position: Location Planning Partner
 linkedin: https://www.linkedin.com/in/alison-moriarty-n4
+image: Alison-headshot-2025
 date: 2020-01-28
 ---
 
