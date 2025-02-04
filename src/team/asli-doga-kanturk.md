@@ -1,6 +1,6 @@
 ---
 name: Asli Doga Kanturk
-position: MAPP Analyst
+position: Client Solution Developer
 linkedin: https://www.linkedin.com/in/asli-kanturk/
 image: asli_headshot
 date: 2024-12-02

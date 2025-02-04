@@ -1,6 +1,6 @@
 ---
 name: Freddie Wallace
-position: Junior Developer
+position: Client Solution Analyst
 linkedin: https://www.linkedin.com/in/freddie-wallace-6961131b5/
 image: freddie-wallace
 date: 2022-07-18

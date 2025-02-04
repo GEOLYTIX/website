@@ -1,6 +1,6 @@
 ---
 name: Kieron Ferrey
-position: Junior Developer
+position: Client Solution Developer
 linkedin: https://www.linkedin.com/in/kieron-ferrey/
 image: Kieron-Ferrey-headshot
 date: 2023-02-13
