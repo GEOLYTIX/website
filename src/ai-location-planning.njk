@@ -1,0 +1,259 @@
+---
+layout: layouts/default.njk
+title: AI Location Planning
+metaDesc: Leverage AI to optimise decisions about site selection, sales forecasting, cannibalisation and more.
+---
+
+<style>
+  .split-pair.reverse {
+    flex-direction: row-reverse;
+  }
+  .measure-short {
+    padding: 1em;
+  }
+  .image-container {
+    padding: 0;
+  }
+  .large-text {
+    font-size: 1.5em;
+  }
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    counter-reset: flexnumbers;
+  }
+  .flex .flex-item:before {
+    counter-increment: flexnumbers;
+    content: '0' counter(flexnumbers);
+    font-size: var(--text-700);
+  }
+  .flex.cols-3 .flex-item {
+      width: 33%;
+  }
+  .flex.cols-2 .flex-item {
+      width: 50%;
+  }
+  .flex-item__title {
+      font-size: var(--text-400);
+      margin-bottom: 0.5rem;
+  }
+  .flex-item__icon {
+      margin-bottom: 1rem;
+  }
+  .flex-item p {
+      font-size: var(--text-300);
+  }
+  .info-list {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 0.5em !important;
+  }
+  .info-list li {
+    padding: 0.5em 0;
+    background: var(--color-dark);
+    padding-left: 3em;
+    color: var(--color-cream-light);
+    margin-bottom: 1px;
+    position: relative;
+  }
+  .info-list li:before {
+    content: "➤";
+    position: absolute;
+    left: 1em;
+  }
+  .info-list li h4 {
+    color: var(--color-cream);
+    margin: 0;
+    font-size: 1.2em;
+  }
+  .info-list li p {
+    margin: 0;
+  }
+  .action-link a {
+    text-decoration: none;
+    color: var(--color-dark);
+    transition: 0.3s ease-in-out;
+  }
+  .action-link a:hover {
+    filter: opacity(0.6);
+  }
+  .our-team {
+    background: var(--color-dark);
+    color: var(--color-cream);
+  }
+  .our-team h3 {
+    color: var(--color-cream);
+    padding: 1.5em;
+    margin: 0;
+  }
+  section.site-visit .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 25em;
+    overflow: hidden;
+  }
+  section.our-team .image-background,
+  section.services .image-background {
+    height: 45em;
+    background-size: cover;
+    background-position: center;
+  }
+  section.services .image-background {
+    width: 50%;
+    height: 20em;
+  }
+  section.our-customers .image-container img {
+    background: #003d57;
+  }
+
+  @media only screen and (max-width: 900px) {
+    section.services .image-background {
+      width: 100%;
+    }
+  }
+</style>
+
+<section class="[ hero ] [ bg-dark ]">
+  <img src="{% cloudinary '/location planning/internationexpansion.png', 'w_2000,f_auto' %}" class="hero__background" alt="Location Planning Background">
+  <div class="wrapper">
+    <div class="measure-short">
+      <h1>{{ "Geolytix AI enriched location intelligence." | i18n }}</h1>
+      <p>{{ "Leverage AI to optimise decisions about site selection, sales forecasting, cannibalisation and more." | i18n }}</p>
+    </div>
+  </div>
+</section>
+
+<section class="pad-top-800 pad-bottom-800">
+  <div class="wrapper">
+    <div class="split-pair">
+      <div>
+        <h2>{{ "Geolytix is at the forefront of harnessing AI for location intelligence applications." | i18n }}</h2>
+        <p class="large-text">{{ "Artificial Intelligence (AI) is shaping the future of Location Planning. Key AI trends, including advancements in data, forecasting, and supportive data extraction, coding and management tasks, are set to revolutionise the industry." | i18n }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="[ pad-top-900 pad-bottom-900 ] bg-cream-light">
+  <div class="wrapper">
+    <div class="gap-bottom-400">
+      <div class="split-pair">
+        <div class="measure-short">
+          <h3 class="text-700">{{ "What actually is ‘AI’ in a location intelligence context." | i18n }}</h3>
+
+          <div class="measure-compact">
+            <p>{{ "AI encompasses a vast array of ‘smart’ technologies.  AI is as transformative as the introduction of the computer or launch of the internet. AIs application will affect every industry, sector and job role to a greater or lesser extent in the coming years." | i18n }}</p>
+            <p>{{ "Yet AI as an umbrella term can be unhelpful when we want to understand how AI can be applied in our specific field." | i18n }}</p>
+            <p>{{ "So let’s focus on two major groups of AI technology and how we harness these internally and for our clients." | i18n }}</p>
+          </div>
+        </div>
+
+        <div class="image-container">
+          <img src="{% cloudinary '/ai_location_planning/what_is_ai.webp', 'w_616,f_auto' %}" srcset="{% cloudinary '/ai_location_planning/what_is_ai.webp', 'w_616,f_auto,dpr_2.0' %} 2x" class="width-full" alt="A surrealist painting inspired by Salvador Dalí, depicting a melting compass dripping into a futuristic landscape.">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="[ pad-top-900 pad-bottom-900 ]">
+  <div class="wrapper">
+    <div class="gap-bottom-400">
+      <div class="split-pair reverse">
+        <div class="measure-short">
+          <h3 class="text-700">{{ "Machine Learning (ML) AI." | i18n }}</h3>
+
+          <div class="measure-compact">
+            <p>{{ "A branch of AI where computers learn patterns and make predictions based on data, without being explicitly programmed for each task. Geolytix have been using ML AI algorithms in sales forecasting models for a number of years. In particular we often use a subset of ML called Gradient Boosting Machine (GBM) algorithms to build sales forecasting tools. These AI algorithms are ideal for supervised learning tasks such as regression, classification and ranking. GBMs work by iteratively building a series of decision trees, where each tree attempts to correct the errors of the previous ones." | i18n }}</p>
+          </div>
+        </div>
+
+        <div class="image-container">
+          <img src="{% cloudinary '/ai_location_planning/ml.webp', 'w_616,f_auto' %}" srcset="{% cloudinary '/ai_location_planning/ml.webp', 'w_616,f_auto,dpr_2.0' %} 2x" class="width-full" alt="An impressionist-style oil painting inspired by Monet, depicting layered hexagons blending seamlessly like dappled brushstrokes on water.">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="[ pad-top-900 pad-bottom-900 ] bg-cream-light">
+  <div class="wrapper">
+    <div class="gap-bottom-400">
+      <div class="split-pair">
+        <div class="measure-short">
+          <h3 class="text-700">{{ "Generative AI." | i18n }}</h3>
+
+          <div class="measure-compact">
+            <p>{{ "Encompasses many helpful tools (such as LLMs and Prompt Engineering) that support more generalised location planning and data tasks. Large Language Models (LLMs) (e.g. Chat GPT, Copilot, Gemini) are a different type of AI designed to process and generate human language. LLM-based tools are used for general purpose tasks (meeting summaries, document translation, etc.), while prompt engineering uses the same LLM technology to perform tasks like assigning labels to a finite set of place categories." | i18n }}</p>
+          </div>
+        </div>
+
+        <div class="image-container">
+          <img src="{% cloudinary '/ai_location_planning/generative_ai.webp', 'w_616,f_auto' %}" srcset="{% cloudinary '/ai_location_planning/generative_ai.webp', 'w_616,f_auto,dpr_2.0' %} 2x" class="width-full" alt="A retro-futuristic, mid-century modern illustration inspired by vintage poster art. The scene features clean geometric shapes and bold, bright colors.">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="[ pad-top-900 pad-bottom-900 ]">
+  <div class="wrapper">
+    <div class="gap-bottom-400">
+      <div class="split-pair reverse">
+        <div class="measure-short">
+          <h3 class="text-700">{{ "Improved quality of outputs." | i18n }}</h3>
+
+          <div class="measure-compact">
+            <p>{{ "AI enables better real-world simulation by opening access to new data sources, enhancing predictive models, and increasing flexibility in the simulations, or ‘what if’ scenarios, capable of being modelled.  The creation of AI digital twin simulations (a virtual replica of the real world) is an exciting example of improvements in both data and modelling capability." | i18n }}</p>
+          </div>
+        </div>
+
+        <div class="image-container">
+          <img src="{% cloudinary '/ai_location_planning/digital_twin.webp', 'w_616,f_auto' %}" srcset="{% cloudinary '/ai_location_planning/digital_twin.webp', 'w_616,f_auto,dpr_2.0' %} 2x" class="width-full" alt="A sharp, high-contrast minimalist photograph of a single architectural model split in half.">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="[ pad-top-900 pad-bottom-900 ] bg-cream-light">
+  <div class="wrapper">
+    <div class="gap-bottom-400">
+      <div class="split-pair">
+        <div class="measure-short">
+          <h3 class="text-700">{{ "Increased Speed and Efficiency." | i18n }}</h3>
+
+          <div class="measure-compact">
+            <p>{{ "AI speeds up and automates tasks, optimising human time, and allows for a greater focus on strategic analysis." | i18n }}</p>
+          </div>
+        </div>
+
+        <div class="image-container">
+          <img src="{% cloudinary '/ai_location_planning/speed.webp', 'w_616,f_auto' %}" srcset="{% cloudinary '/ai_location_planning/speed.webp', 'w_616,f_auto,dpr_2.0' %} 2x" class="width-full" alt="A bold, comic-style pop art piece featuring a dynamic figure in motion, symbolizing speed and automation. Speech-bubble exclamations like ‘WHAM!’">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="[ pad-top-900 pad-bottom-900 ]">
+  <div class="wrapper">
+    <div class="gap-bottom-400">
+      <div class="split-pair reverse">
+        <div class="measure-short">
+          <h3 class="text-700">{{ "AI opens up opportunities for using new and bigger data." | i18n }}</h3>
+
+          <div class="measure-compact">
+            <p>{{ "One of the applications of AI that gets us really excited at Geolytix is using AI to unlock new ways to describe locations using more complex feature extraction from sources we’ve not been able to use before - images, free text, unstructured non-tabular data and real-time data.  Computer vision (image recognition AI) facilitates applications such as delineating building footprints, comparing busyness across a retailer's carparks and its competitors and assessing visibility and signage consistently and with ease." | i18n }}</p>
+          </div>
+        </div>
+
+        <div class="image-container">
+          <img src="{% cloudinary '/ai_location_planning/image_recognition.webp', 'w_616,f_auto' %}" srcset="{% cloudinary '/ai_location_planning/image_recognition.webp', 'w_616,f_auto,dpr_2.0' %} 2x" class="width-full" alt="A cubist interpretation of a camera lens disassembled into geometric shards, each shard revealing objects, faces, and map elements in fragmented plane.">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
