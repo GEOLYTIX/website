@@ -45,6 +45,7 @@
     },
     {
       "name": "Coles",
+	  "has_story": true,
       "logo": {
         "path": "/stories/logos/coles.svg",
         "width": "440",
