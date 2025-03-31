@@ -12,7 +12,6 @@ hideAwards: true
         <h1>{{ "Make better decisions where location matters." | i18n }}</h1>
         <p>{{ "At Geolytix, our location-planning experts build tools and data that help our customers understand and optimise location when creating both physical and online distribution networks across the world." | i18n }}</p>
         <div class="button-group">
-          <a href="#geodata" class="button">{{ "View Our Products" | i18n }}</a>
           <a href="/about/" class="button button--outline">{{ "Read More About Us" | i18n }}</a>
         </div>
       </div>
@@ -116,46 +115,6 @@ hideAwards: true
                 </div>
             </section>
 
-            <section id="geodata" class="pad-top-900">
-              <div class="wrapper">
-                <div class="text-align-center gap-bottom-700">
-                  <div class="measure-compact">
-                    <h2 class="eyebrow">{{ "GeoData" | i18n }}</h2>
-                    <h3 class="text-700">{{ "Where people live, work, study and shop." | i18n }}</h3>
-                    <p>{{ "We create datasets across the globe to help with your network strategy and location based decisions." | i18n }}</p>
-                  </div>
-                </div>
-                <div class="tabs">
-                  <div class="text-align-center display-none md:display-block">
-                    <ul class="segment-control" role="tablist">
-                      {% for item in geodata.items %}
-                        <li role="tab" {% if loop.first %} aria-selected="true" {% endif %} data-tab="{{ item.title | slug }}">
-                          <button>{{ item.title | i18n }}</button>
-                        </li>
-                      {% endfor %}
-                    </ul>
-                  </div>
-                  {% for item in geodata.items %}
-                    <div data-tab-id="{{ item.title | slug }}" role="tabpanel" aria-hidden="{% if loop.first %}false{% else %}true{% endif %}" aria-label="{{ item.title }}">
-                      <div class="[ window ] [ display-none md:display-block ]">
-                        <div class="window__toolbar">
-                          <span class="window__toolbar-item"></span>
-                          <span class="window__toolbar-item"></span>
-                          <span class="window__toolbar-item"></span>
-                        </div>
-                        <div class="window__inner">
-                          <iframe src="{{ item.iframe }}" aria-label="{{ item.title }} GeoData"></iframe>
-                        </div>
-                      </div>
-                      <div class="text-align-center pad-bottom-400 display-block md:display-none">
-                        <a href="https://geolytix.xyz/geodata?locale=London" class="button" target="_blank" rel="noopener noreferrer">Open maps
-                          &rarr;</a>
-                      </div>
-                    </div>
-                  {% endfor %}
-                </div>
-              </div>
-            </section>
             <section id="mobility" class="bg-cream-light pad-top-900">
               <div class="wrapper">
                 <div class="text-align-center gap-bottom-700">
